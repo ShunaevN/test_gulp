@@ -1,11 +1,19 @@
 .footer__circle-button {
+  display: -webkit-box;
+  /* stylelint-disable-next-line declaration-block-no-duplicate-properties */
+  display: -ms-flexbox;
+  /* stylelint-disable-next-line declaration-block-no-duplicate-properties */
   display: flex;
   width: 200px;
   height: 200px;
-  background-color: aquamarine;
+  background-color: #21e25e;
   border-radius: 50%;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .footer__text {
