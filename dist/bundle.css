@@ -1,8 +1,4 @@
 .footer__circle-button {
-  display: -webkit-box;
-  /* stylelint-disable-next-line declaration-block-no-duplicate-properties */
-  display: -ms-flexbox;
-  /* stylelint-disable-next-line declaration-block-no-duplicate-properties */
   display: flex;
   width: 200px;
   height: 200px;
@@ -20,4 +16,13 @@
   display: block;
   color: blueviolet;
   font-size: 32px;
+}
+
+@media (width: 600px) {
+
+  .footer__circle-button {
+  
+    display: flex;
+  }
+
 }
