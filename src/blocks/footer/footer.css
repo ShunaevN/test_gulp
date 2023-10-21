@@ -1,0 +1,15 @@
+.footer__circle-button {
+    display: flex;
+    width: 200px;
+    height: 200px;
+    background-color: aquamarine;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer__text {
+    display: block;
+    color: blueviolet;
+    font-size: 32px;
+}
