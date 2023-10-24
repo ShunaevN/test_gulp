@@ -13,8 +13,6 @@ function html() {
     .pipe(gulp.dest('dist/')).pipe(browserSync.reload({stream: true}));
   }
   
-  
-
 function css() {
   const plugins = [
     autoprefixer(),
