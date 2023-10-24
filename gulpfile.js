@@ -17,8 +17,8 @@ function html() {
 function css() {
   const plugins = [
     autoprefixer(),
-    mediaquery(),
-    cssnano()
+    mediaquery()
+    // cssnano()
   ]
     return gulp.src('src/blocks/**/*.css')
           .pipe(plumber())
